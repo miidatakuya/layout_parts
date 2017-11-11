@@ -2,4 +2,25 @@
 
 /* 回答はここに書いてね */
 
+th {
+    background-color: #2244aa;
+    padding: 10px 0 10px 0;
+    color: #fff;
+    border: 1px solid #dfdfdf;
+}
+
+td {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+}
+
+tr:nth-child(odd) {
+    background-color: #ecf1f2;
+}
+
+tr:last-child {
+    border-top: 2px dashed #000;
+}
+
 /* 回答はここに書いてね */
