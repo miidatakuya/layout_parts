@@ -2,4 +2,140 @@
 
 /* 回答はここに書いてね */
 
+.main_container {
+    background-color: #ecf1f2;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.title_txt {
+    position: relative;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.title_txt:before {
+    content: "";
+    border-top: 1px solid #ccc;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 75%;
+}
+
+.title_txt_line {
+    display: inline-block;
+    background-color: #ecf1f2;
+}
+
+.left_container {
+    width: 300px;
+    float: left;
+}
+
+.asterisk {
+    color: red;
+}
+
+.genreBox {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.genre {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.inputText {
+    width: 170px;
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.inputText:focus {
+    outline: none;
+}
+
+.radiobtn {
+    display: none;
+}
+
+.radiotxt {
+    position: relative;
+    display: inline-block;
+    padding: 3px 3px 3px 20px;
+}
+
+.radiotxt:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: -8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    content: '';
+}
+
+.radiobtn:checked + .radiotxt:after {
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+    content: '';
+}
+
+.submitBtnBox {
+    text-align: right;
+}
+
+.submitBtn {
+    height: 26px;
+    padding: 0 10px;
+    font-size: 16px;
+    background-color: #00bcd4;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.right_container {
+    float: right;
+    width: 380px;
+    
+}
+
+.textAreaText {
+    width: 360px;
+    height: 183px;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+
+.textAreaText:focus {
+    outline: none;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
 /* 回答はここに書いてね */

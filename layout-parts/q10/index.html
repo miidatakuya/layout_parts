@@ -25,7 +25,7 @@
         Webサイトを作る際、コンタクトフォームを実装する機会がとても多くあります。
         Q7で出てきた、inputやtextarea要素を使えばフォームをつくることができます。
         この課題では、実際にユーザーが入力した値を送れる状態まで作っていただきます。answerの方で確認していただきたいのですが、全ての入力フォームを適当に記述してsubmitボタンを押してみてください。URL欄の最後に「?q10_1=...」という感じの文字列が追加されているのがわかると思います。
-        これが、入力した値を送信できている状態です。本来ではこの値をサーバーサイドで受け取ってフォームの処理をするのですが、今回はHTMLを使って送信するまでをやってもらいます。
+        これが、入力した値を送信できている状態です。本来ではこの値をサーバーサイドで受け取ってフォームの処理をするのですが、今回はHTMLを使って送信するまでをやってもらいます。   
         answerで入力した値を自分で作ったフォームに全く同じように入力した場合、URLが全く同じように変わる状態にしてください。
         また赤の*(アスタリスク)の部分は必須項目です。必須項目を空にしたまま送信しようとするとアラートが表示される処理も再現しましょう。
 
@@ -34,9 +34,42 @@
 
         ■この問題で使う大事なhtml要素
         ・form
-        ・input(type="submit")
+        ・forminput(type="submit")
         -->
         <!-- 回答はここに書いてね -->
+        <div class="main_container clearfix">
+            <p class="title_txt"><span class="title_txt_line">Form Exercise</span></p>
+            <div class="left_container">
+                <form>
+                <div class="genreBox">
+                    <p class="genre">name&nbsp;<span class="asterisk">*</span></p><input class="inputText" type="text" value="">
+                </div>
+                <div class="genreBox">
+                    <p class="genre">Sex</p>
+                    <label class="radio">
+                        <input class="radiobtn" type="radio" name="Sex">
+                        <span class="radiotxt">male</span>
+                    </label>
+                    <label class="radio">
+                        <input class="radiobtn" type="radio" name="Sex">
+                        <span class="radiotxt">female</span>
+                    </label>
+                </div>
+                <div class="genreBox">
+                    <p class="genre">Email&nbsp;<span class="asterisk">*</span></p><input class="inputText" type="text" value="" placeholder="ex) hoge@gmail.com">
+                </div>
+                <div class="genreBox">
+                    <p class="genre">Telephone</p><input class="inputText" type="text" value="" placeholder="ex) 08012345678">
+                </div>
+                <div class="submitBtnBox">
+                    <input class="submitBtn" type="submit" value="submit">
+                </div>
+            </div>
+            <div class="right_container">
+                <textarea class="textAreaText" placeholder="Please fill in the message..."></textarea>
+            </div>
+            </form>
+        </div>
 
         <!-- 回答はここに書いてね -->
     </div>
