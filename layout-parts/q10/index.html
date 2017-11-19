@@ -42,31 +42,31 @@
             <div class="left_container">
                 <form>
                 <div class="genreBox">
-                    <p class="genre">name&nbsp;<span class="asterisk">*</span></p><input class="inputText" type="text" value="">
+                    <p class="genre">name&nbsp;<span class="asterisk">*</span></p><input class="inputText" type="text" name="name" value="" required="required">
                 </div>
                 <div class="genreBox">
                     <p class="genre">Sex</p>
                     <label class="radio">
-                        <input class="radiobtn" type="radio" name="Sex">
+                        <input class="radiobtn" type="radio" name="Sex" value="male">
                         <span class="radiotxt">male</span>
                     </label>
                     <label class="radio">
-                        <input class="radiobtn" type="radio" name="Sex">
+                        <input class="radiobtn" type="radio" name="Sex" value="female">
                         <span class="radiotxt">female</span>
                     </label>
                 </div>
                 <div class="genreBox">
-                    <p class="genre">Email&nbsp;<span class="asterisk">*</span></p><input class="inputText" type="text" value="" placeholder="ex) hoge@gmail.com">
+                    <p class="genre">Email&nbsp;<span class="asterisk">*</span></p><input class="inputText" type="text" name="Email" value="" placeholder="ex) hoge@gmail.com" required="required">
                 </div>
                 <div class="genreBox">
-                    <p class="genre">Telephone</p><input class="inputText" type="text" value="" placeholder="ex) 08012345678">
+                    <p class="genre">Telephone</p><input class="inputText" type="text" name="Telephone" value="" placeholder="ex) 08012345678">
                 </div>
                 <div class="submitBtnBox">
                     <input class="submitBtn" type="submit" value="submit">
                 </div>
             </div>
             <div class="right_container">
-                <textarea class="textAreaText" placeholder="Please fill in the message..."></textarea>
+                <textarea class="textAreaText" name="textarea" value="" placeholder="Please fill in the message..."></textarea>
             </div>
             </form>
         </div>

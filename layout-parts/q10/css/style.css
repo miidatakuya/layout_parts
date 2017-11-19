@@ -43,7 +43,7 @@
 
 .genreBox {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .genre {
@@ -51,6 +51,7 @@
     width: 100px;
     text-align: right;
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 .inputText {
