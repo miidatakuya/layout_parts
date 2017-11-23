@@ -20,7 +20,7 @@
     height: 333px;
 }
 
-.car:hover {
+.imgbig:hover .car {
     transform: scale(1.5,1.5);
     transition-property: transform;
     transition-duration: .5s;
@@ -55,7 +55,7 @@
     animation: rotate 1.1s linear infinite;
 }
 @keyframes rotate {
-    0%  { transform: rotateZ(-0deg); }
-    100%    { transform :rotateZ(360deg); }
+    0% { transform: rotate(0deg);}
+    100% { transform :rotate(360deg);}
 }
 /* 回答はここに書いてね */
