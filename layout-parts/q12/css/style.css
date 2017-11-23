@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.hukidashi {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px; 
+    border: 5px solid #222;
+    border-radius: 30px;
+    font-size: 16px;
+    position: relative;
+}
 
+.hukidashi:before {
+    content: "";
+    border: 25px solid transparent;
+    border-top: 25px solid #222;
+    position: absolute;
+    left: 25px;
+    bottom: -33%;
+}
+
+.hukidashi:after {
+    content: "";
+    border: 18px solid transparent;
+    border-top: 18px solid #fff;
+    position: absolute;
+    left: 6%;
+    bottom: -24%;
+}
 /* 回答はここに書いてね */
