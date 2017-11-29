@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.hukidashi {
+.blow_off {
     width: 500px;
     margin: 0 auto;
     padding: 20px; 
@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.hukidashi:before {
+.blow_off:before {
     content: "";
     border: 25px solid transparent;
     border-top: 25px solid #222;
@@ -20,7 +20,7 @@
     bottom: -33%;
 }
 
-.hukidashi:after {
+.blow_off:after {
     content: "";
     border: 18px solid transparent;
     border-top: 18px solid #fff;

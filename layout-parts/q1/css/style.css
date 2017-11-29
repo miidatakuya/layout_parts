@@ -14,15 +14,15 @@
     float: left;
 }
 
+.blueline:last-child {
+    margin-right: 0;
+}
+
 .box1 {
     border: 10px solid #022336;
     width: 170px;
     padding: 20px;
     background-color: #eaf4ff;
-    float: left;
-}
-
-.sentence {
     font-size: 16px;
     line-height: 16px;
 }
